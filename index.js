@@ -43,7 +43,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["bot ni peho", "mahal kita boss"];
-const statusTypes = [ 'dnd', 'idle'];
+const statusTypes = [ 'dnd'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
